@@ -33,7 +33,6 @@ body {
     line-height: 1;
     letter-spacing: 0.03em;
     color: #2196F3;
-    padding-bottom: 25px;
 }
 
 .studio {
@@ -54,8 +53,6 @@ body {
 }
 
 .text-button {
-    left: 576px;
-    top: 174px;
     background: #F5F4FA;
     border-radius: 4px;
     font-size: 16px;
@@ -69,6 +66,7 @@ body {
     padding-bottom: 6px;
     padding-left: 24px;
     padding-right: 24px;
+    font-weight: 500;
 }
 
 .text-button:hover {
@@ -111,16 +109,17 @@ body {
     margin-bottom: 30px;
 }
 
-.box:nth-child(1) {
-    margin-left: 215px;
-}
-
-.box:nth-child(4) {
-    margin-left: 215px;
-}
 
 .box:nth-child(7) {
-    margin-left: 215px;
+    margin-bottom: 0px;
+}
+
+.box:nth-child(8) {
+    margin-bottom: 0px;
+}
+
+.box:nth-child(9) {
+    margin-bottom: 0px;
 }
 
 .adress {
@@ -132,21 +131,16 @@ body {
 }
 
 header {
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
     background: #FFFFFF;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 
 footer {
-    width: 1600px;
-    height: 252px;
-    left: 0px;
     background: #2F303A;
-    padding-left: 215px;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .studio-white {
@@ -179,6 +173,7 @@ footer {
     text-transform: uppercase;
     color: white;
     margin: 0px;
+    margin-bottom: 40px;
 }
 
 .button-index {
@@ -192,7 +187,8 @@ footer {
     width: 200px;
     height: 50px;
     cursor: pointer;
-    margin-top: 30px;
+    display: block;
+    margin: auto;
 }
 
 .text-plus {
@@ -210,8 +206,6 @@ footer {
     letter-spacing: 0.03em;
     color: #757575;
     width: 270px;
-    padding-right: 30px;
-
 }
 
 .text-zanimaemsya {
@@ -243,16 +237,11 @@ footer {
 
 .box-1 {
     width: 270px;
-    left: 215px;
-    top: 1635px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.box-1:first-child {
-
-}
 
 .box-1:last-child {
     margin: 0px;
@@ -286,13 +275,17 @@ footer {
     margin-right: 30px; 
 }
 
+.li-ots {
+
+}
+
+
 .li-ots:last-child {
     margin-right: 0px;
 }
 
 .concatst {
-    margin-left: auto;
-    margin-right: 215px;
+    margin-left: auto
 }
 
 .li-ots-2 {
@@ -338,7 +331,7 @@ footer {
 }
 
 .prei {
-
+    padding-top: 0px;
 }
 
 .ots {
@@ -360,14 +353,14 @@ footer {
 .container {
     margin-left: auto;
     margin-right: auto;
-
     padding-left: 15px;
     padding-right: 15px;
+    width: 1200px;
 }
 
 .pad-knopki {
-    margin-left: 495px;
     margin-bottom: 50px;
+    justify-content: center;
 }
 
 .pad-knopki li {
@@ -443,7 +436,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .section-1 {
@@ -495,29 +488,42 @@ h1, h2, h3, h4, h5, h6, p, ul {
     padding-left: 0;
 }
 
-footer
-
-.li-ots-3:first-child {
-    margin: 0px;
-}
-
 .li-ots-3:last-child {
     margin: 0px;
-}
-
-
-.li-ots-3:first-child {
-}
-
-.li-ots-3:last-child {
-    margin: 0px;
-}
-
-header {
-    padding-top: 32px;
 }
 
 .ots-4 {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.flexwrap-1 {
+    display: flex;
+}
+
+.flexwrap-3 {
+    display: flex;
+    justify-items: end;
+}
+
+.flexwrap-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.linki-1 {
+    color: #2196F3; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+   }
+.linki-1:hover {
+    color: #2196F3; /* Цвет ссылки при наведении */ 
+    }
+
+.text-razmer-mail {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.02em;    
+    color: #757575;
 }
