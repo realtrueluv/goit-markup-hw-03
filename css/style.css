@@ -198,6 +198,7 @@ footer {
     text-transform: uppercase;
     color: #212121;
     width: 270px;
+    padding-bottom: 10px;
 }
 
 .text-plus-opis {
@@ -285,7 +286,8 @@ footer {
 }
 
 .concatst {
-    margin-left: auto
+    margin-left: auto;
+
 }
 
 .li-ots-2 {
@@ -307,6 +309,7 @@ footer {
 
 .padding {
     margin-right: 30px;
+    flex-basis: calc(100% / 3 - 30px)
 }
 
 .padding:last-child {
@@ -324,6 +327,7 @@ footer {
 .padding-plus {
     margin-right: 30px;
     display: block;
+
 }
 
 .padding-plus:last-child {
@@ -508,7 +512,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .flexwrap-4 {
     display: flex;
-    justify-content: center;
 }
 
 .linki-1 {
